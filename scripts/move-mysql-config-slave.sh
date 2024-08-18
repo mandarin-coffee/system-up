@@ -6,7 +6,7 @@ sudo cp slave/mysqld.cnf /etc/mysql/mysql.conf.d/
 
 sudo systemctl restart mysql
 
-STOP_REPLICA="stop replica";
+STOP_REPLICA="stop replica;"
 SQL_COMMAND="CHANGE REPLICATION SOURCE TO
     SOURCE_HOST='192.168.0.104',
     SOURCE_USER='repl',
