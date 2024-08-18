@@ -13,7 +13,7 @@
   sudo apt install -y apache2
    ```
   ```bash
-   bash move-apache-configs.sh
+  bash move-apache-configs.sh
   ```
 - Затем можно проверить работоспособность apache
   - Переходим по адресам которые получили в ip -4 a и в конце добавляем __ip:8081 ip:8082 ip:8083__
