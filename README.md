@@ -65,6 +65,17 @@ ___
   ```bash
   bash move-mysql-config-slave.sh
   ```
+- Установим prometheus
+  ```bash
+  sudo apt install -y prometheus prometheus-node-exporter
+  ```
+- Установим grafana
+  ```bash
+  sudo apt install -y adduser libfontconfig1 musl
+  ```
+  ```bash
+  sudo dpkg -i grafana-enterprise_11.1.3_amd64.deb
+  ```
 - Перенесем конфиги prometheus и перезапустим сервисы prometheus и grafana
   ```bash
   bash move-prometheus-config
